@@ -132,11 +132,20 @@ for (const item of divs) {
 
 // Como esta constate recoge todos los botones, para probar la funcionabilidad del anterior ejercicio, el 1.5 debemos comentarlo
 
-// const buttonss = document.querySelectorAll("button"); 
+//const buttonss = document.querySelectorAll("button"); 
 
-buttonss.forEach(button => {
-    button.onclick = () => {
-        const parent = button.parentNode;
+// buttonss.forEach(button => {
+//     button.onclick = () => {
+//         const parent = button.parentNode;
+//         parent.remove();
+//     };
+// });
+
+
+
+for (const item of buttonss) {
+    item.onclick = () => {
+        const parent = item.parentNode;
         parent.remove();
     };
-});
+}
