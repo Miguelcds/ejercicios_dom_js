@@ -134,6 +134,7 @@ for (const item of divs) {
 
 //const buttonss = document.querySelectorAll("button"); 
 
+
 // buttonss.forEach(button => {
 //     button.onclick = () => {
 //         const parent = button.parentNode;
